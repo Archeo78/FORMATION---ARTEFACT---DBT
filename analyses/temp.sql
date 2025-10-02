@@ -1,0 +1,1 @@
+{{ codegen.generate_source('dbt_vplet')}}
