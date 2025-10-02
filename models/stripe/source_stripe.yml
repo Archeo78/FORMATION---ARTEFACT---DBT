@@ -1,0 +1,8 @@
+sources:
+  - name: stripe_sources
+    description: "permets de récupérer des données clients et données de commandes en vue de création d'une dimension client relié aux commandes"
+    database: raw  
+    schema: stripe
+    tables:
+      - name: payment
+        description : "données de paiements / facturations clients"

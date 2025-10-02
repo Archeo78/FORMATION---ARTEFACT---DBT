@@ -1,0 +1,11 @@
+sources:
+  - name: jaffle_shop_sources
+    description: "permets de récupérer des données clients et données de commandes en vue de création d'une dimension client relié aux commandes"
+    database: raw  
+    schema: jaffle_shop  
+    tables:
+      - name: orders
+        description : "données de commandes clients"
+      - name: customers
+        description : "données de clients"
+
